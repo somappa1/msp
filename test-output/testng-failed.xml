@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Regression suite 1(failed)">
+    <classes>
+      <class name="github.tests.GitHubTest">
+        <methods>
+          <include name="github_login_error"/>
+          <include name="intializeDriver"/>
+          <include name="github_login"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- github.tests.GitHubTest -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->

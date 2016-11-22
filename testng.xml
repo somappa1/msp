@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" >
+<parameter name="browser" value="firefox"></parameter>
+  <test name="Regression suite 1" >
+      <package name="github.tests" />
+      <classes>
+       <class name="github.tests.GitHubTest">
+    </class>
+  </classes>
+ </test>
+</suite>
+

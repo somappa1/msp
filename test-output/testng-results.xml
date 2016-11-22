@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="75" started-at="2016-11-22T15:21:56Z" finished-at="2016-11-22T15:21:56Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="75" started-at="2016-11-22T15:21:56Z" finished-at="2016-11-22T15:21:56Z">
+      <class name="github.tests.GitHubTest">
+        <test-method status="PASS" signature="intializeDriver(java.lang.String)[pri:0, instance:github.tests.GitHubTest@d7b1517]" name="intializeDriver" is-config="true" duration-ms="5726" started-at="2016-11-22T20:51:50Z" finished-at="2016-11-22T20:51:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDriver -->
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:github.tests.GitHubTest@d7b1517]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-11-22T20:51:56Z" finished-at="2016-11-22T20:51:56Z">
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[VERSION_2_3_23]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: VERSION_2_3_23
+	at com.relevantcodes.extentreports.HTMLReporter.start(HTMLReporter.java:76)
+	at com.relevantcodes.extentreports.Report.attach(Report.java:314)
+	at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:84)
+	at com.relevantcodes.extentreports.ExtentReports.<init>(ExtentReports.java:418)
+	at github.driver.ExtentManager.getReporter(ExtentManager.java:9)
+	at github.driver.Report.beforeClass(Report.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.TestNG.privateMain(TestNG.java:1338)
+	at org.testng.TestNG.main(TestNG.java:1307)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="github_login()[pri:0, instance:github.tests.GitHubTest@d7b1517]" name="github_login" duration-ms="1" started-at="2016-11-22T20:51:56Z" finished-at="2016-11-22T20:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- github_login -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:github.tests.GitHubTest@d7b1517]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-11-22T20:51:56Z" finished-at="2016-11-22T20:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="github_login_error()[pri:0, instance:github.tests.GitHubTest@d7b1517]" name="github_login_error" duration-ms="1" started-at="2016-11-22T20:51:56Z" finished-at="2016-11-22T20:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- github_login_error -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:github.tests.GitHubTest@d7b1517]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-11-22T20:51:56Z" finished-at="2016-11-22T20:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:github.tests.GitHubTest@d7b1517]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-11-22T20:51:56Z" finished-at="2016-11-22T20:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:github.tests.GitHubTest@d7b1517]" name="closeDriver" is-config="true" duration-ms="0" started-at="2016-11-22T20:51:56Z" finished-at="2016-11-22T20:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- github.tests.GitHubTest -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
